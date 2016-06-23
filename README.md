@@ -17,10 +17,10 @@ SD card
 All of these are easily available for cheap.
 
 It is assumed you know how to connect the display and chip to the Arduino. If not research Arduino I2C.
-The joystick connects to Gnd, +5V, A0, A1 & A3.
+The joystick connects to Gnd, +5V, A0, A1 & A2.
 SD board connects to digital 10, 11, 12 & 13.
-If you need to buy one, get one with a built in regular, it should have a switch saying 3.3V and 5V. You need to switch it to 5V for MOST Arduinos including the Uno, Nano and Mega.
-this is because an AD card is 3.3V and Arduinos are 5V devices.  Connection details are given in the listing.
+If you need to buy one, get one with a built in regulator, it should have a switch saying 3.3V and 5V. You need to switch it to 5V for MOST Arduinos including the Uno, Nano and Mega.
+this is because an SDcard is 3.3V and Arduinos are 5V devices.  Connection details are given in the listing.
 
 The program will detect the chip at address 0x50 and the LCD at 0x27. Change these if needed.
 it will then look for the SD card and report an error if not found.
