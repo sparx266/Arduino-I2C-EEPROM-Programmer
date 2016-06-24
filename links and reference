@@ -1,0 +1,18 @@
+Here are some links to some resources that may be useful.
+
+how to use I2C LCD backpacks that are found on ebay for cheap. 
+
+https://arduino-info.wikispaces.com/LCD-Blue-I2C
+
+some really useful info about I2C on Nick Gammon site.  it shows how to wire up an EEPROM and has a scanner program which will detect devices on the I2C bus.
+
+
+http://www.gammon.com.au/i2c
+
+finally, SD card information for Arduino.  Note that the Chip Select pin can be changed in the sketch.  I used pin 10 as it was easiest for me.
+
+
+https://www.arduino.cc/en/Reference/SD
+
+
+if you are looking for a good Arduino resource book, The Arduino Cookbook by Michael Margolis is suggested.
