@@ -31,7 +31,7 @@ next, choose file to load, press button to select.
 
 It will start writing straight away. A 256 will take about 20 minutes to program and verify.  512 is untested at this time.
 
-The verify routine isn't great, it will report a pass and and error on Gail. If no error then it passed!
+The verify routine isn't great, it will report a pass and and error on fail. If no error then it passed!
 
 This project is given freely in the hope it will help others learn or create something cool, amazing, clever, interesting or beneficial in some way.
 
